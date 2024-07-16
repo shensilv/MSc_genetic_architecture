@@ -5,6 +5,5 @@ Repository for generating GWAS summary statistics for MSc project on genetic arc
 ## Step 1 - generate file list to call 
 Where `\effect-sizes` is the file containing simulated genotype effect sizes. 
 
-```ls -lth effect-sizes/*.?.txt| awk '{print $9}' | sort >> file-list.txt```
-
-
+```ls -lth effect-sizes/*.?.txt| awk '{print $9}' | sort >> file-list.txt
+cat file-list.txt | awk 'BEGIN{FS="/"}{print $2}' >> file_list.txt```
