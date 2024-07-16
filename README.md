@@ -5,10 +5,10 @@ Repository for generating GWAS summary statistics for MSc project on genetic arc
 # List of sub-repositories
 
 1) `/exports/igmm/eddie/GWAS-annotations/tvl-msc/GWAS_silvia` - all simulated GWAs work done in here   
-2) '/exports/igmm/eddie/GWAS-annotations/tvl-msc/GWAS_silvia/effect-sizes` - simulated effect sizes supplied by Theo   
-3) '/exports/igmm/eddie/GWAS-annotations/tvl-msc/GWAS_silvia/phenotypes` - simulated phenotypes produced in step 2   
-4) '/exports/igmm/eddie/GWAS-annotations/tvl-msc/GWAS_silvia/submission_outputs` - output of all scripts submitted (to avoid clogging up working dir   
-5) '/exports/igmm/eddie/GWAS-annotations/tvl-msc/GWAS_silvia/GWAS_summary_stats` - output of GWAS run on simulated phenotype in step 4   
+2) `/exports/igmm/eddie/GWAS-annotations/tvl-msc/GWAS_silvia/effect-sizes` - simulated effect sizes supplied by Theo   
+3) `/exports/igmm/eddie/GWAS-annotations/tvl-msc/GWAS_silvia/phenotypes` - simulated phenotypes produced in step 2   
+4) `/exports/igmm/eddie/GWAS-annotations/tvl-msc/GWAS_silvia/submission_outputs` - output of all scripts submitted (to avoid clogging up working dir   
+5) `/exports/igmm/eddie/GWAS-annotations/tvl-msc/GWAS_silvia/GWAS_summary_stats` - output of GWAS run on simulated phenotype in step 4   
 
 ## Step 1 - generate file list to call 
 Where `\effect-sizes` is the file containing simulated genotype effect sizes, we create a list of effect size files with the directory name and without. 
